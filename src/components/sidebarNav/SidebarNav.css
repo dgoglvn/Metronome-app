@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 4;
+  width: 16rem;
+  overflow: hidden;
+  background-color: #3e4eb8;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px;
+  border-radius: 6px;
+  /* font-size: 20px; 
+  line-height: 28px; */
+  cursor: pointer;
+}

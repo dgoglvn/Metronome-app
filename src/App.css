@@ -1,0 +1,92 @@
+.app {
+  min-height: 100vh;
+}
+
+.banner {
+  height: 100px;
+  padding: 10px 200px;
+  background-color: #3e4eb8;
+  color: #ffffff;
+}
+
+.banner p {
+  font-size: 22px;
+}
+
+main {
+  width: 1000px;
+  margin-inline: auto;
+}
+
+.tempo-display {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #444;
+}
+
+.tempo-display .tempo {
+  font-size: 8rem;
+  font-weight: 300;
+}
+
+.tempo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tempo {
+  text-align: center;
+  font-size: 20px;
+  color: #444;
+}
+
+input {
+  width: 65%;
+  margin: 0 20px;
+}
+
+.tempo-container button {
+  cursor: pointer;
+  font-size: 40px;
+  color: #444;
+  font-weight: bold;
+  background: none;
+  border: none;
+}
+
+.pulses-containter {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pulse {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid #444;
+  border-radius: 50%;
+}
+
+.btn-container {
+  height: 100px;
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #3e4eb8;
+  background-color: #3e4eb8;
+  color: #ffffff;
+  cursor: pointer;
+}
